@@ -1,0 +1,294 @@
+[
+  {
+    "pagenum": 1,
+    "content1": [
+      "Compact Smart Device - Detailed \n",
+      "Overview\n",
+      "Product Description\n",
+      "Easy to maintain and highly durable. Available in various sizes and colors to suit your needs. \n",
+      "It features a sleek and modern design. Its ergonomic design makes it easy to use and handle. \n",
+      "This item has received rave reviews from customers worldwide.\n",
+      "Key Features\n",
+      "Easy to maintain and highly durable. This product offers unmatched performance and \n",
+      "reliability. Its ergonomic design makes it easy to use and handle. Designed with the latest \n",
+      "technology, it ensures top-notch quality. Crafted with premium materials, it is built to last.\n",
+      "Product Details - Section 1\n"
+    ],
+    "table": {
+      "columns": [
+        "Feature",
+        "Who is Responsible",
+        "Additional for Vulnerable Customers",
+        "Rechargeable to Customer",
+        "Reportable by Leaseholders & Shared Owners",
+        "Target Priority"
+      ],
+      "rows": [
+        {
+          "Feature": "Price",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Customer action",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Emergency"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Critical Emergency"
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 3,
+    "content1": [
+      "Product Details - Section 2\n"
+    ],
+    "table": {
+      "columns": [
+        "Feature",
+        "Who is Responsible",
+        "Additional for Vulnerable Customers",
+        "Rechargeable to Customer",
+        "Reportable by Leaseholders & Shared Owners",
+        "Target Priority"
+      ],
+      "rows": [
+        {
+          "Feature": "Price",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Customer action",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Emergency"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Critical Emergency"
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 4,
+    "content1": [
+      "Product Details - Section 3\n"
+    ],
+    "table": {
+      "columns": [
+        "Feature",
+        "Who is Responsible",
+        "Additional for Vulnerable Customers",
+        "Rechargeable to Customer",
+        "Reportable by Leaseholders & Shared Owners",
+        "Target Priority"
+      ],
+      "rows": [
+        {
+          "Feature": "Price",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "User Ratings",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Critical Emergency"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Routine"
+        },
+        {
+          "Feature": "Power Source",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Yes, if damaged",
+          "Reportable by Leaseholders & Shared Owners": "Depending on policy",
+          "Target Priority": "Batch"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "Customer action",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Emergency"
+        },
+        {
+          "Feature": "Material",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "If critical condition",
+          "Rechargeable to Customer": "No, normal wear and tear",
+          "Reportable by Leaseholders & Shared Owners": "Yes, in all cases",
+          "Target Priority": "Critical Emergency"
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  }
+]

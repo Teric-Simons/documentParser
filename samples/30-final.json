@@ -1,0 +1,198 @@
+[
+  {
+    "pagenum": 1,
+    "content1": [
+      "Working Hours Repair Obligations & Classification Technical \n",
+      "Guide\n",
+      "Repairs Obligations & Classification Guide\n",
+      "Working Hours Repair Obligations & Classification Technical Guide\n",
+      "Repairs Obligations & Classification Guide\n",
+      "The matrix below details the Maintenance Team's repair obligations under Aster Group\u2019s tenancy \n",
+      "agreements. It specifies the repairs provided for customers, leaseholders, and shared ownership scheme \n",
+      "owners. A summary is included in customer and leaseholder handbooks.\n",
+      "Response times are based on repair priority, with special considerations for vulnerable and disabled \n",
+      "customers. These priorities, created by a customer focus group, are regularly reviewed.\n",
+      "Aster\u2019s safety-first culture is a key focus in this guide. For repairs not listed, refer to your line manager \n",
+      "for further advice. Priorities can be adjusted based on professional judgment.\n",
+      "Priority Guidance:\n"
+    ],
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "6 Hours",
+          "Description": "Endangerment to life, major property damage, or large customer impact."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "17 Hours",
+          "Description": "Immediate health, safety, or structural risk."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "32 Hours",
+          "Description": "For a continuously beeping alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but potential for future issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "22 Working Days",
+          "Description": "Non-urgent, can be deferred without significant impact."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "45 Working Days",
+          "Description": "Larger repairs or recent deterioration, planned repairs."
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 2,
+    "content1": [
+      "Vulnerable Customers: \n",
+      "If it is discovered that a customer has incorrectly claimed vulnerability to obtain additional repairs, Aster \n",
+      "will charge them with the cost of any repairs undertaken as a result of the incorrect claim. \n",
+      "Rechargeable to customer: \n",
+      "Repair costs for any damage caused by the customer or their family or visitors will be recharged to them. \n",
+      "This excludes repairs resulting from normal wear and tear. \n",
+      "Reportable by Leaseholders & Shared Owners: \n",
+      "Repairs that Aster are responsible for variances according to the leases. This list covers the majority of \n",
+      "leases. Leaseholders should not request repairs that are listed here as a customer responsibility. \n"
+    ],
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "6 Hours",
+          "Description": "Endangerment to life, major property damage, or large customer impact."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "17 Hours",
+          "Description": "Immediate health, safety, or structural risk."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "32 Hours",
+          "Description": "For a continuously beeping alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but potential for future issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "22 Working Days",
+          "Description": "Non-urgent, can be deferred without significant impact."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "45 Working Days",
+          "Description": "Larger repairs or recent deterioration, planned repairs."
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 3,
+    "content1": [
+      "Vulnerable Customers: \n",
+      "If it is discovered that a customer has incorrectly claimed vulnerability to obtain additional repairs, Aster \n",
+      "will charge them with the cost of any repairs undertaken as a result of the incorrect claim. \n",
+      "Rechargeable to customer: \n",
+      "Repair costs for any damage caused by the customer or their family or visitors will be recharged to them. \n",
+      "This excludes repairs resulting from normal wear and tear. \n",
+      "Reportable by Leaseholders & Shared Owners: \n",
+      "Repairs that Aster are responsible for variances according to the leases. This list covers the majority of \n",
+      "leases. Leaseholders should not request repairs that are listed here as a customer responsibility. \n"
+    ],
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "6 Hours",
+          "Description": "Endangerment to life, major property damage, or large customer impact."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "17 Hours",
+          "Description": "Immediate health, safety, or structural risk."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "32 Hours",
+          "Description": "For a continuously beeping alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but potential for future issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "22 Working Days",
+          "Description": "Non-urgent, can be deferred without significant impact."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "45 Working Days",
+          "Description": "Larger repairs or recent deterioration, planned repairs."
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  }
+]

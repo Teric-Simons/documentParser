@@ -1,0 +1,803 @@
+[
+  {
+    "page": 1,
+    "content": [
+      "We understand that a processor is made up of digital logic \n",
+      "circuits (hardware).\n",
+      " The micro-architecture of a processor describes how these\n",
+      "\n",
+      "circuits are organized to create a processor.\n",
+      "Processor = Controller + Data Paths\n",
+      " Internally the processor performs simple tasks by\n",
+      "\n",
+      "executing microinstructions on a data path.\n",
+      " Microinstructions are grouped to create micro-routines\n",
+      "\n",
+      "that perform useful operations.\n"
+    ]
+  },
+  {
+    "page": 2,
+    "content": [
+      "So far\n",
+      "+\n",
+      "• In a typical processor these micro-routines are organized \n",
+      "to:\n",
+      "1. Fetch an instruction from RAM and place the instruction into \n",
+      "the processor’s Instruction Register.\n",
+      "2. Decode the instruction (i.e. determine what is to be done)\n",
+      "3. Execute the task that the instruction requires.\n",
+      "• This simple cycle is repeated for each instruction that is \n",
+      "given to the processor by a program.\n",
+      "So far\n",
+      "+\n",
+      "We discuss:\n"
+    ]
+  },
+  {
+    "page": 3,
+    "content": [
+      "1. Why Assembly Languages are useful.\n",
+      "2. Concepts to be considered when implementing an Assembly \n",
+      "Language:\n",
+      "➢Instruction Formats\n",
+      "➢Register Access\n",
+      "➢Addressing Modes\n",
+      "➢Branching\n",
+      "In this Lecture\n",
+      "+\n",
+      "◼ The machine level of a computer \n",
+      "system is positioned above the \n",
+      "micro-architecture level.\n",
+      "◼ The machine level is the interface \n"
+    ]
+  },
+  {
+    "page": 4,
+    "content": [
+      "between hardware and software.\n",
+      "◼ A programmer can write instructions \n",
+      "to the processor at the machine level \n",
+      "using what is called machine code.\n",
+      "◼ The Machine Level defines the \n",
+      "Instruction Set Architecture (ISA) of \n",
+      "a processor.\n",
+      "◼ Describes how a processor can be \n",
+      "used.\n",
+      "The Machine Level\n",
+      "+\n",
+      " A programmer can use machine code to write programs.\n",
+      "\n",
+      " Enter strings of bits to tell the processor what to do.\n",
+      "\n"
+    ]
+  },
+  {
+    "page": 5,
+    "content": [
+      " Tedious, error prone, unproductive.\n",
+      "\n",
+      " Few programmers write programs at the machine code level\n",
+      "\n",
+      "today.\n",
+      " Those who do use a language that is called assembly language to\n",
+      "\n",
+      "write instructions.\n",
+      " The assembly language for a processor defines mnemonics for\n",
+      "\n",
+      "machine code.\n",
+      " For example the mnemonic ADD might stand for the code 0011.\n",
+      "\n",
+      " Instead of writing the instruction 0011… programmer writes the\n",
+      "\n",
+      "assembly language instruction ADD ...... \n",
+      "Assembly Language\n",
+      "+\n",
+      "◼ An Assembler is a program that accepts an assembly \n"
+    ]
+  },
+  {
+    "page": 6,
+    "content": [
+      "language program as its input and generates machine code \n",
+      "that can run on a processor\n",
+      "MOVE D1, D2\n",
+      "ADD D2,D3\n",
+      "Assembler 1100 00 0110\n",
+      "0011 00 1011\n",
+      "Assembly \n",
+      "Language Program\n",
+      "Machine Language \n",
+      "Program (Machine Code)\n",
+      "Referred to as \n",
+      "the binary object of the program\n",
+      "The Assembler\n"
+    ]
+  },
+  {
+    "page": 7,
+    "content": [
+      "+\n",
+      " Most programmers write programs using High Level\n",
+      "\n",
+      "Languages (e.g. C, C++, Java, etc).\n",
+      " High Level Programming Languages are for human beings.\n",
+      "\n",
+      " So that humans can see what a program is supposed to do.\n",
+      "\n",
+      " In order to be run on a computer system a HLL program must\n",
+      "\n",
+      "be translated to a form that the processor can understand.\n",
+      " This is done through a process called compiling.\n",
+      "\n",
+      " A Compiler is a program that takes a HLL program as its input\n",
+      "\n",
+      "and produces machine code as its output.\n",
+      " A C compiler translates a C program to machine code.\n",
+      "\n",
+      "Translation\n",
+      "+\n"
+    ]
+  },
+  {
+    "page": 8,
+    "content": [
+      "Translation is done in several stages:\n",
+      "1. Compiler translates C code (for example) to assembly language \n",
+      "program\n",
+      "2. Assembler produces machine code from assembly language\n",
+      "In most cases, a program will have several modules that must all be \n",
+      "combined to make one executable program. Very often these other \n",
+      "programs are pre-defined programs that are supplied as object \n",
+      "libraries.\n",
+      "3. All object code that is to make up a program are brought together to \n",
+      "produce an executable binary program (machine code) by a program \n",
+      "that is called a linker.\n",
+      "(Note a compiler will often carry out these stages without stopping, \n",
+      "unless otherwise instructed)\n"
+    ]
+  },
+  {
+    "page": 9,
+    "content": [
+      "Translation\n",
+      "Binary Object\n",
+      "..\n",
+      "p = q + r\n",
+      ".\n",
+      ".\n",
+      "Compiler\n",
+      "Assembly Language \n",
+      "version of program\n",
+      "Linker\n",
+      "Object\n",
+      "Libraries\n",
+      "Assembler\n"
+    ]
+  },
+  {
+    "page": 10,
+    "content": [
+      "Executable\n",
+      "Binary\n",
+      "Translation\n",
+      "+\n",
+      "Translation\n",
+      "+\n",
+      "Definition: The Instruction Set Architecture of \n",
+      "a computer is an abstract model of \n",
+      "a computer that describes what a \n",
+      "computer does, not how it does it.\n",
+      "Instruction Set Architecture\n",
+      "Example: “This processor can add two numbers that \n",
+      "are retrieved from memory and store the \n"
+    ]
+  },
+  {
+    "page": 11,
+    "content": [
+      "result to a location in memory”.\n",
+      "Details of implementation are in the organization of the \n",
+      "units that make up the computer (micro-architecture).\n",
+      "+\n",
+      "◼ An ISA can then be seen as an abstract specification of a \n",
+      "processor which is written for programmers who write \n",
+      "compilers.\n",
+      "◼ The compiler must be written to produce instructions that the \n",
+      "processor can “understand”.\n",
+      "◼ Programmers who write operating systems also need to be \n",
+      "familiar with the ISA of the computer system.\n",
+      "◼ The operating system (e.g. Windows, or Linux).\n",
+      "Other Definitions\n"
+    ]
+  },
+  {
+    "page": 12,
+    "content": [
+      "+\n",
+      " An ISA defines\n",
+      "\n",
+      " An Instruction Set\n",
+      "\n",
+      " Set of instructions that the processor can execute (the language that\n",
+      "\n",
+      "processor understands).\n",
+      " Format in which instruction must be written\n",
+      "\n",
+      " How many bits are in an instruction\n",
+      "\n",
+      " How to specify what operation is to be done\n",
+      "\n",
+      " How to specify the data on which the operation is to be carried out\n",
+      "\n",
+      " A set of registers that can be used by instructions\n",
+      "\n",
+      " Referred to as the register set\n",
+      "\n",
+      " Memory Model\n",
+      "\n",
+      " How the processor views memory. Typically, how an address that the\n",
+      "\n"
+    ]
+  },
+  {
+    "page": 13,
+    "content": [
+      "processor issues relates to a location in memory.\n",
+      "ISA Properties\n",
+      "+\n",
+      "◼ When encoded, an instruction is a \n",
+      "set of bits that can be portioned \n",
+      "into bits that contain:\n",
+      "◼ An operation code (called opcode \n",
+      "for short)\n",
+      "◼ Specifies an operation that is to \n",
+      "be performed (eg. Add two \n",
+      "numbers)\n",
+      "◼ A number of operands\n",
+      "◼ Values on which the operation is \n"
+    ]
+  },
+  {
+    "page": 14,
+    "content": [
+      "to be performed\n",
+      "◼ For ease of understanding we will \n",
+      "discuss instructions using \n",
+      "mnemonics for operation codes \n",
+      "and symbols to represent \n",
+      "operands.\n",
+      "OPCODE Operand 1 …. Operand n\n",
+      "Instructions\n",
+      "+\n",
+      "• We will introduce a small set of operations for illustration \n",
+      "purposes only:\n",
+      "• LOAD means retrieve a value from memory and store it in a register\n",
+      "• STORE means copy a value from a register to a memory location\n"
+    ]
+  },
+  {
+    "page": 15,
+    "content": [
+      "• ADD means add two numbers to give their sum\n",
+      "• We will also specify operands as follows:\n",
+      "• R1, R2, and R3 refer to registers that contain values which are to be \n",
+      "used in an operation\n",
+      "• X,Y, and Z refer to memory locations where values are stored\n",
+      "Note: The use of mnemonics here is only for the convenience of explaining the \n",
+      "concept of an instruction and as such our notation will not be strict to any \n",
+      "specific notation such as assembly language.\n",
+      "Instructions\n",
+      "+\n",
+      "• An ISA will describe the format of an instruction that can be \n",
+      "executed by the processor\n",
+      "• Every instruction will have an operation code\n"
+    ]
+  },
+  {
+    "page": 16,
+    "content": [
+      "• The number of operands may defer depending on the ISA\n",
+      "• Common instruction formats include:\n",
+      "• Three Operand Instructions\n",
+      "• Two Operand Instructions\n",
+      "• One Operand Instructions\n",
+      "• Zero Operand Instructions\n",
+      "Instruction Format\n",
+      "+\n",
+      "◼ Consider the C program statement Z = X + Y;\n",
+      "◼ This might be translated into instructions which carry out the \n",
+      "following tasks\n",
+      "◼ Retrieve a value, X from a location in memory\n",
+      "◼ Retrieve a second value, Y, from a location in memory\n"
+    ]
+  },
+  {
+    "page": 17,
+    "content": [
+      "◼ Add the values of X and Y\n",
+      "◼ Store the result of the addition to a memory location Z.\n",
+      "◼ The following examples will demonstrate how this might be \n",
+      "done using different instruction formats\n",
+      "Instruction Format\n",
+      "+\n",
+      "Three operand format uses three operands (usually registers) for all \n",
+      "instructions except LOAD and STORE.\n",
+      "• Example:\n",
+      "LOAD X, R1 /* Retrieve X, store in register R1\n",
+      "LOAD Y, R2 /* Retrieve Y, store in register R2\n",
+      "ADD R1, R2, R3 /* Add values, store result in R3\n",
+      "STORE R3, Z /* Store result to memory location Z\n"
+    ]
+  },
+  {
+    "page": 18,
+    "content": [
+      "• Three operand formats are typical of RISC (Reduced Instruction Set \n",
+      "Computer) architectures\n",
+      "• The order of the operands will differ among different ISA’s\n",
+      "• Destination is sometimes the last operand.\n",
+      "Instruction Format\n",
+      "+\n",
+      "Two operand format:\n",
+      "• Example:\n",
+      "LOAD X ,R1, /* Retrieve X, store in register R1\n",
+      "LOAD Y, R2, /* Retrieve Y, store in register R2\n",
+      "ADD R1, R2 /* Add R1 to R2 (literally speaking)\n",
+      "STORE R2, Z /* Store result to memory location Z\n",
+      "• Second operand is used to store result\n"
+    ]
+  },
+  {
+    "page": 19,
+    "content": [
+      "• Most commonly used format for personal computer \n",
+      "processors\n",
+      "• Instruction shorter than 3 operand instruction (less memory)\n",
+      "• Processor can have a moderate number of registers\n",
+      "Instruction Format\n",
+      "+\n",
+      "One operand format:\n",
+      "• Accumulator Architecture\n",
+      "• Implicit operand is a special register which is called the \n",
+      "accumulator\n",
+      "Example:\n",
+      "LOAD X /* Retrieve X, store in accumulator\n",
+      "MOVE R2 /* Copy value from accumulator to register R2\n"
+    ]
+  },
+  {
+    "page": 20,
+    "content": [
+      "LOAD Y /* Retrieve Y, store in accumulator\n",
+      "ADD R2 /* Add R2 to accumulator\n",
+      "STORE Z /* Store accumulator value to location Z\n",
+      "• Popular in older computers\n",
+      "• Small number of registers needed\n",
+      "• Mostly used in calculators\n",
+      "Instruction Format\n",
+      "+\n",
+      "Zero operand format:\n",
+      "• Stack Architecture\n",
+      "• Implicit use of an operand stack\n",
+      "• Example:\n",
+      "LOAD X /* Load X and push onto stack\n"
+    ]
+  },
+  {
+    "page": 21,
+    "content": [
+      "LOAD Y /* LOAD Y and push onto stack\n",
+      "ADD /* Pop two values from stack\n",
+      "/* add and push result onto stack\n",
+      "STORE Y /* pop value and store to location Y\n",
+      "• Used mostly in small devices such as cell phones\n",
+      "• Instructions are short\n",
+      "• Programs do not need a lot of memory\n",
+      "• Disadvantage is that every instruction references memory \n",
+      "(slower) since operand stack is kept in a set of memory \n",
+      "locations.\n",
+      "Instruction Format\n",
+      "+\n",
+      "• Each instruction that is defined by an ISA will fall into one of \n"
+    ]
+  },
+  {
+    "page": 22,
+    "content": [
+      "several categories:\n",
+      "• Data Movement (copy data from one location to another)\n",
+      "• Arithmetic (perform common arithmetic operations)\n",
+      "• Logical Operations (perform logical and Boolean operations) \n",
+      "• Operations on Bits (e.g., complement bits, shift bits, etc,) \n",
+      "• Branching operations that change the flow of execution (e.g., \n",
+      "looping)\n",
+      "• These are general classes \n",
+      "Instruction Types\n",
+      "Instruction Types\n",
+      "Some Examples (again, we use mnemonics)\n",
+      "Data \n",
+      "Movement\n"
+    ]
+  },
+  {
+    "page": 23,
+    "content": [
+      "MOVE\n",
+      "LOAD\n",
+      "STORE\n",
+      "Arithmetic ADD SUB\n",
+      "MUL DIV\n",
+      "Logical CMP (compare two values. Like if (x == y)\n",
+      "AND perform AND on corresponding bits of operands\n",
+      "Bit \n",
+      "operations\n",
+      "SHL (shift bits left)\n",
+      "SHR (shift bits right)\n",
+      "Branching BRA (unconditional branch)\n",
+      "BLT (branch is last result was less than zero.\n"
+    ]
+  },
+  {
+    "page": 24,
+    "content": [
+      "Mnemonics will vary with ISA but most use this type of syntax\n",
+      "+\n",
+      " The ISA of a processor will define a set registers that can be\n",
+      "\n",
+      "referred to in an instruction at the machine level\n",
+      " Some registers that are visible at the micro-architecture level\n",
+      "\n",
+      "cannot be referred to at the ISA level (they are hidden from a \n",
+      "programmer)\n",
+      " Programmer does not need to be concerned with the MAR, MDR, IR, for\n",
+      "\n",
+      "example.\n",
+      " These are used internally (at the microarchitecture level)\n",
+      "\n",
+      " Program Counter (PC) is usually visible\n",
+      "\n",
+      " Also, general purpose registers\n",
+      "\n",
+      " For example, the Motorola 68000 (68K) ISA defines:\n",
+      "\n"
+    ]
+  },
+  {
+    "page": 25,
+    "content": [
+      " 16 General purpose registers (D0 to D15)\n",
+      "\n",
+      " 16 Address Registers (A0-A15) that are used as pointers\n",
+      "\n",
+      "Register Set\n",
+      "+\n",
+      "• An ISA will define several different modes in which an \n",
+      "operand can be specified in an instruction.\n",
+      "• These include:\n",
+      "• Immediate (literal) Addressing\n",
+      "• Direct (absolute) Addressing\n",
+      "• Register Addressing\n",
+      "• Register Indirect Addressing\n",
+      "• Indexed Addressing\n",
+      "• Based Indexed Addressing\n"
+    ]
+  },
+  {
+    "page": 26,
+    "content": [
+      "• Stack Addressing (to be covered when discussing the stack)\n",
+      "• We will illustrate these using two operand format \n",
+      "instructions.\n",
+      "Addressing Modes\n",
+      "Mode: Immediate (also called Literal)\n",
+      "Description: Operand is the value that is included in the instruction\n",
+      "Example \n",
+      "showing typical \n",
+      "syntax\n",
+      "MOVE R2, #4\n",
+      "Action: Move the value 4 into the register R2 \n",
+      "Comments: \n",
+      " Largest value is limited to number of bits in operand field\n",
+      "\n",
+      " Value is constant, change requires changing program\n",
+      "\n"
+    ]
+  },
+  {
+    "page": 27,
+    "content": [
+      " Advantage: no memory access needed\n",
+      "\n",
+      "OPCODE OPERAND #1 4\n",
+      "Addressing Modes\n",
+      "Mode: Direct Addressing\n",
+      "Description: Operand is address where value that is to be used by \n",
+      "operation is to be found\n",
+      "Example \n",
+      "showing typical \n",
+      "syntax\n",
+      "MOVE R2, 1024\n",
+      "LOAD R2, A\n",
+      "Action: Retrieve value at location 1024 and store value in \n",
+      "register R2 \n"
+    ]
+  },
+  {
+    "page": 28,
+    "content": [
+      "Comments: \n",
+      " Address is determined at compile time and cannot be\n",
+      "\n",
+      "changed thereafter\n",
+      " Useful for global variables if program is always loaded\n",
+      "\n",
+      "in same locations \n",
+      "OPCODE OPERAND #1 1024\n",
+      "Addressing Modes\n",
+      "Addressing Modes\n",
+      "Mode: Register Addressing\n",
+      "Description: Operand is a register. Value in register is to be used \n",
+      "in operation.\n",
+      "Example \n",
+      "showing \n",
+      "typical \n"
+    ]
+  },
+  {
+    "page": 29,
+    "content": [
+      "syntax\n",
+      "CMP R2, R3 \n",
+      "Action: Compare value in register R2 with value in register \n",
+      "R3 \n",
+      "Comments: • Most commonly used addressing mode for personal \n",
+      "computer ISAs\n",
+      "• Registers are faster than memory\n",
+      "Addressing Modes\n",
+      "Mode: Register Indirect Addressing\n",
+      "Description: Operand field of instruction refers to a register. Value \n",
+      "that is to be used in operation is at location given by the \n",
+      "value in the register\n",
+      "Example \n"
+    ]
+  },
+  {
+    "page": 30,
+    "content": [
+      "showing \n",
+      "typical syntax\n",
+      "MOVE #1024, R2 ; Immediate mode\n",
+      "ADD (R2), R1 ; Parentheses indicate indirection\n",
+      "Action: Retrieve a value from memory location 1024 and add \n",
+      "the value that is retrieved to the value in the register R1 \n",
+      "Comments: • Address in register is called a pointer\n",
+      "• References memory without having a full memory \n",
+      "address in the instruction. Saves bits.\n",
+      "Addressing Modes\n",
+      "Mode: Indexed Addressing\n",
+      "Description: Value in register is an offset from a memory address\n",
+      "Example \n"
+    ]
+  },
+  {
+    "page": 31,
+    "content": [
+      "showing \n",
+      "typical syntax\n",
+      "MOVE A(R3), R2\n",
+      "Action: Retrieve value at memory location that is offset from the \n",
+      "address A by the value in register R3 \n",
+      "Comments: • Allows more flexible programming for structures such \n",
+      "as arrays and other collections of data\n",
+      "Memory address (e.g. \n",
+      "start of array)\n",
+      "Index (offset from memory address)\n",
+      "Addressing Modes\n",
+      "• There are several other addressing modes\n",
+      "• e.g., Motorola 68K ISA has 12 addressing modes\n"
+    ]
+  },
+  {
+    "page": 32,
+    "content": [
+      "• Includes autoincrement and autodecrement modes\n",
+      "e.g., MOVE R2, A(R2)+ ; like i++ in Java\n",
+      "• Some of the more elaborate modes are seldom used in \n",
+      "programs.\n",
+      "Branching\n",
+      "◼ Branching is used to accomplish a change \n",
+      "in the flow of execution of a program\n",
+      "HLL constructs such as: if (x > 0) y=1 are \n",
+      "implemented at the machine level through \n",
+      "branching\n",
+      "◼ Every instruction in a program has an \n",
+      "address in memory\n",
+      "◼ In the normal flow of execution, the next \n"
+    ]
+  },
+  {
+    "page": 33,
+    "content": [
+      "instruction to be executed is the one \n",
+      "following the one that is being executed.\n",
+      "◼ A branching instruction can result in \n",
+      "another instruction being executed \n",
+      "instead.\n",
+      "loop\n",
+      "Skip \n",
+      "over\n",
+      "Branching and Labels\n",
+      "Example:\n",
+      "BRA #3684 ; Execute instruction at address 3684 after this one\n",
+      "; This is an unconditional branch\n",
+      "A conditional branch is used with another instruction that executes an \n"
+    ]
+  },
+  {
+    "page": 34,
+    "content": [
+      "arithmetic operation, or a comparison operation\n",
+      "CMP R1, R2 ; Compare value in R1 with value in R2\n",
+      "BLT #3684 ; Execute instruction at address 3684 if R1 < R2\n",
+      "; Otherwise execute instruction following this one\n",
+      "Branching and Labels\n",
+      " A label is often used as the operand with a branching instruction.\n",
+      "\n",
+      " The label “stands” for the address of the labeled instruction.\n",
+      "\n",
+      " If value in R1 is greater than zero after subtraction, then next\n",
+      "\n",
+      "instruction to be executed is the one labelled LOOP.\n",
+      "MOV #200, R1\n",
+      "LOOP: SUB #1, R1\n",
+      "BGT LOOP\n",
+      "ADD R1, R2\n"
+    ]
+  },
+  {
+    "page": 35,
+    "content": [
+      "If value in R1 is greater than zero \n",
+      "after subtraction then next \n",
+      "instruction to be executed is the \n",
+      "one labelled LOOP.\n",
+      "Otherwise this is the next \n",
+      "instruction.\n",
+      "Branching and Labels\n",
+      "BEQ AGAIN ; Execute statement labeled AGAIN if result was = 0 \n",
+      "BNE DONE ; Execute statement labeled DONE if result was <> 0\n",
+      "BGT LOOP ; Execute statement labeled LOOP if result was > 0\n",
+      "BLT LOOP ; Execute statement labeled LOOP if result was < 0\n",
+      "Some commonly used branching instructions:\n",
+      "Result which is referred to is result from instruction that was executed \n"
+    ]
+  },
+  {
+    "page": 36,
+    "content": [
+      "immediately before the branching instruction\n",
+      "How it Is Done\n",
+      "◼ A note on how branching is accomplished:\n",
+      "• At the microarchitecture level there is a special register which called the \n",
+      "Program Status Word (PSW)\n",
+      "• This register is continuously updated to store information on the status \n",
+      "of the processor\n",
+      "• Contains bits (Condition Code Bits) that are updated after each ALU \n",
+      "operation:\n",
+      "• Z is set to 1 if last ALU result was 0\n",
+      "• N is set to 1 if last ALU result was negative\n",
+      "• C is set to 1 if there was a carry out on the last ALU operation\n",
+      "• V is set to 1 if there was an overflow on the last operation\n"
+    ]
+  },
+  {
+    "page": 37,
+    "content": [
+      "• The PSW has many other bits that store information such as the \n",
+      "processor mode (e.g. privileged vs. unprivileged)-\n",
+      "How it Is Done\n",
+      "Other status data\n",
+      "ALU\n",
+      "Z N C V\n",
+      "Out\n",
+      "PROGRAM \n",
+      "STATUS WORD\n",
+      "(usually made \n",
+      "from latches)\n",
+      "These wires go to the \n",
+      "Control Unit\n"
+    ]
+  },
+  {
+    "page": 38,
+    "content": [
+      "How it Is Done\n",
+      "• The microinstructions that implement a branching instruction will \n",
+      "test the condition code bits of the PSW and set the Program \n",
+      "Counter to effect the branch.\n",
+      "• For example, given the instructions:\n",
+      "AGAIN:CMP R1, R2 ; Subtraction occurs\n",
+      "BEQ AGAIN\n",
+      "To execute the BEQ instruction, the microinstructions in the \n",
+      "micro-routine that implement the BEQ will:\n",
+      "check the Z bit of the PSW\n",
+      "if (Z ==1) move address of statement that is labelled AGAIN to PC\n",
+      "Illustration of Indirect Addressing\n",
+      " Problem:\n",
+      "\n"
+    ]
+  },
+  {
+    "page": 39,
+    "content": [
+      " An array A (in memory) stores 1024\n",
+      "\n",
+      "integers. Compute the sum of the \n",
+      "integers and store the result in the \n",
+      "register R1.\n",
+      "Notes:\n",
+      " Array elements are stored in\n",
+      "\n",
+      "consecutive memory locations\n",
+      " Name of array is address of first\n",
+      "\n",
+      "element (element 0)\n",
+      " Each element is 4 bytes (integer)\n",
+      "\n",
+      " Element n is at starting address + n\n",
+      "\n",
+      "* 4 (offset)\n",
+      "Depiction of an array \n"
+    ]
+  },
+  {
+    "page": 40,
+    "content": [
+      "of integers\n",
+      "Element 0\n",
+      "Element 1\n",
+      "+\n",
+      "Load address \n",
+      "of A into R2\n",
+      "The Program\n",
+      "(Demonstrates Indirect Addressing)\n",
+      "MOVE #0, R1 ; set accumulator to 0\n",
+      "LEA A, R2 ; starting address of array\n",
+      "MOVE R2, R3 ; location after end of array\n",
+      "ADD #4096, R3 ; mark the end of the array\n",
+      "LOOP: ADD (R2), R1 ; add next value from array\n"
+    ]
+  },
+  {
+    "page": 41,
+    "content": [
+      "ADD #4, R2 ; increment index\n",
+      "CMP R2, R3 ; check for end of array\n",
+      "BLT LOOP ; keep going. Not yet at end\n",
+      ".\n",
+      ".\n",
+      ".\n",
+      "+\n",
+      "• A processor is described by its Instruction Set Architecture\n",
+      "• The ISA defines the instructions that a processor can understand\n",
+      "• The micro-architecture of a processor interprets each instruction in a program\n",
+      "• An instruction has an operation code and zero, or more operands\n",
+      "• The operation (code) is a unique code for each instruction that the processor can \n",
+      "interpret\n"
+    ]
+  },
+  {
+    "page": 42,
+    "content": [
+      "• The operand field(s) of an instruction can be interpreted in several ways which \n",
+      "are referred to as addressing modes\n",
+      "• An operand can be a register, or a memory address\n",
+      "• Literal addressing, direct addressing, and indirect addressing are the most \n",
+      "common modes\n",
+      "• Branching causes a change in the flow of instructions that are executed\n",
+      "• Branching is accomplished using the bits of the Program Status Word that are \n",
+      "updated from the ALU status bits.\n"
+    ]
+  }
+]

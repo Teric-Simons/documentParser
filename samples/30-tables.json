@@ -1,0 +1,218 @@
+[
+  {
+    "page": 1,
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "6 Hours",
+          "Description": "Endangerment to life, major property damage, or large customer impact."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "17 Hours",
+          "Description": "Immediate health, safety, or structural risk."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "32 Hours",
+          "Description": "For a continuously beeping alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but potential for future issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "22 Working Days",
+          "Description": "Non-urgent, can be deferred without significant impact."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "45 Working Days",
+          "Description": "Larger repairs or recent deterioration, planned repairs."
+        }
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "table": {
+      "columns": [
+        "TYPE OF REPAIR",
+        "Who is Responsible",
+        "Additional for Vulnerable Customers",
+        "Rechargeable to Customer",
+        "Reportable by Leaseholders & Shared Owners",
+        "Reportable by Private rent",
+        "Target Priority"
+      ],
+      "rows": [
+        {
+          "TYPE OF REPAIR": "Ceilings\nRe-plastering or patch repairs to ceilings",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "If damage is due to customer action",
+          "Reportable by Leaseholders & Shared Owners": "No – Sharedowner\nLeaseholder – refer to buildings insurance on service now",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Routine \n20 working days"
+        },
+        {
+          "TYPE OF REPAIR": "Ceilings\nRe-plastering or patch repairs to ceilings",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "If damage is due to customer action",
+          "Reportable by Leaseholders & Shared Owners": "No – Sharedowner\nLeaseholder – refer to buildings insurance on service now",
+          "Target Priority": "Routine \n20 working days"
+        },
+        {
+          "TYPE OF REPAIR": "Chimneys \nRepairs to chimney pot, cowl or stack",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "No",
+          "Reportable by Leaseholders & Shared Owners": "Not in shared ownership houses, flats only",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Routine \n20 working days"
+        },
+        {
+          "TYPE OF REPAIR": "Chimneys \nRepairs to chimney pot, cowl or stack",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "No",
+          "Reportable by Leaseholders & Shared Owners": "Not in shared ownership houses, flats only",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Batch 60 working days"
+        },
+        {
+          "TYPE OF REPAIR": "Cookers\nConnection of cookers",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Not applicable",
+          "Reportable by Leaseholders & Shared Owners": "No",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "No Response"
+        },
+        {
+          "TYPE OF REPAIR": "Cookers\nConnection of cookers",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Not applicable",
+          "Reportable by Leaseholders & Shared Owners": "No"
+        },
+        {
+          "TYPE OF REPAIR": "Decoration\nInternal decorations",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Not applicable",
+          "Reportable by Leaseholders & Shared Owners": "No",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "No Response"
+        },
+        {
+          "TYPE OF REPAIR": "Decoration\nInternal decorations",
+          "Who is Responsible": "Customer",
+          "Additional for Vulnerable Customers": "No",
+          "Rechargeable to Customer": "Not applicable",
+          "Reportable by Leaseholders & Shared Owners": "No"
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nAdditional keys / fobs for communal entrance doors",
+          "Who is Responsible": "Customer but extra keys are usually obtained from Housing team at a charge",
+          "Additional for Vulnerable Customers": "Customer but extra keys are usually obtained from Housing team at a charge",
+          "Rechargeable to Customer": "Rechargeable",
+          "Reportable by Leaseholders & Shared Owners": "Rechargeable",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "No Response"
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nAdditional keys / fobs for communal entrance doors",
+          "Who is Responsible": "Customer but extra keys are usually obtained from Housing team at a charge",
+          "Additional for Vulnerable Customers": "Customer but extra keys are usually obtained from Housing team at a charge",
+          "Rechargeable to Customer": "Rechargeable",
+          "Reportable by Leaseholders & Shared Owners": "Rechargeable"
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nGain access if keys lost – i.e. force entry & repair or replace lock",
+          "Who is Responsible": "All customers will be advised to contact locksmith in the first instance. If unable to do this Maintenance Team will attend but customer will be recharged for the visit.",
+          "Additional for Vulnerable Customers": "All customers will be advised to contact locksmith in the first instance. If unable to do this Maintenance Team will attend but customer will be recharged for the visit.",
+          "Rechargeable to Customer": "Rechargeable for general needs and vulnerable customers. Recharge may be waivered in exceptional circumstances by Housing team",
+          "Reportable by Leaseholders & Shared Owners": "No response from Maintenance Team - will be advised to contact locksmith.",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Emergency \n24 hours"
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nGain access if keys lost – i.e. force entry & repair or replace lock",
+          "Who is Responsible": "All customers will be advised to contact locksmith in the first instance. If unable to do this Maintenance Team will attend but customer will be recharged for the visit.",
+          "Additional for Vulnerable Customers": "All customers will be advised to contact locksmith in the first instance. If unable to do this Maintenance Team will attend but customer will be recharged for the visit.",
+          "Rechargeable to Customer": "Rechargeable for general needs and vulnerable customers. Recharge may be waivered in exceptional circumstances by Housing team",
+          "Reportable by Leaseholders & Shared Owners": "No response from Maintenance Team - will be advised to contact locksmith."
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nPerson locked in",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "Yes - if lock is in working order but customer has lost the key",
+          "Reportable by Leaseholders & Shared Owners": "No response from Maintenance – will be advised to contact locksmith.",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Critical Emergency\n4 hours\n(If only one door for access)"
+        },
+        {
+          "TYPE OF REPAIR": "Doors\nPerson locked in",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "Yes - if lock is in working order but customer has lost the key",
+          "Reportable by Leaseholders & Shared Owners": "No response from Maintenance – will be advised to contact locksmith."
+        },
+        {
+          "TYPE OF REPAIR": "Door\nRe-secure front or back door to dwelling",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "If damage is due to customer action",
+          "Reportable by Leaseholders & Shared Owners": "No",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Critical\nEmergency \n4 hours \n- Unable to close shut (door ajar)\n- Unable to lock and no chain or deadbolt"
+        },
+        {
+          "TYPE OF REPAIR": "Door\nRe-secure front or back door to dwelling",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "If damage is due to customer action",
+          "Reportable by Leaseholders & Shared Owners": "No",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Emergency \n- Unable to lock but there is a chain"
+        },
+        {
+          "TYPE OF REPAIR": "Door\nRe-secure front or back door to dwelling",
+          "Who is Responsible": "Maintenance Team",
+          "Additional for Vulnerable Customers": "Maintenance Team",
+          "Rechargeable to Customer": "If damage is due to customer action",
+          "Reportable by Leaseholders & Shared Owners": "No",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Routine \n- Unable to lock but they have a deadbolt which secures it & can access/ exit the property via another door"
+        },
+        {
+          "TYPE OF REPAIR": "Automatic Doors\nRepairs to auto doors",
+          "Who is Responsible": "Servicing Team",
+          "Additional for Vulnerable Customers": "Servicing Team",
+          "Rechargeable to Customer": "If vandalism is identified",
+          "Reportable by Leaseholders & Shared Owners": "Yes – communal",
+          "Reportable by Private rent": "Yes",
+          "Target Priority": "Critical Emergency\n4 hours"
+        }
+      ]
+    }
+  }
+]

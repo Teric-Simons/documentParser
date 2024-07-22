@@ -1,0 +1,287 @@
+[
+  {
+    "pagenum": 1,
+    "content1": [
+      "Amended 16/11/2022 \n",
+      "1 \n",
+      "Working Hours Repair Obligations & \n"
+    ],
+    "content2": [
+      "Classification Technical Guide \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 2,
+    "content1": [
+      "Amended 16/11/2022 \n",
+      "2 \n",
+      "Repairs Obligations & Classification Guide  \n",
+      "The matrix below is a detailed guide to the repair obligations that the Maintenance Team has under the Aster Group\u2019s tenancy \n",
+      "agreements. The guide details what repairs the Maintenance Team will carry out for customers, leaseholders and owners under the \n",
+      "shared ownership scheme. A condensed version of this matrix is contained within the customers\u2019 and leaseholders handbooks.  \n",
+      "The matrix gives response timescales based on the repair priority. The repair priorities have been enhanced for vulnerable and \n",
+      "disabled customers, where appropriate. The priorities have been developed by the customer focus group and will be reviewed on a \n",
+      "regular basis.  \n",
+      "Aster follows and promotes a safety first culture, and the guide has been created with this in mind. If additional guidance is required \n",
+      "regarding a specific repair which is not listed, please refer to your line manager for further advice. Depending on the circumstances, \n",
+      "Aster can increase the priority of the repair if required using their professional judgement.  \n",
+      "The repairs policy matrix should be used in conjunction with the following:  \n",
+      "\u2022 Repairs & Maintenance Policy \n",
+      "\u2022 Repairs Re-charge Policy \n",
+      "\u2022 OOH Procedure \n",
+      "\u2022 Void Standard  \n",
+      "\u2022 Business Continuity Plan  \n",
+      "Vulnerabilities - When a customer contacts us about a repair, we may give them a higher priority if they are considered vulnerable \n"
+    ],
+    "content2": [
+      "and the repair affects their condition.   \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 3,
+    "content1": [
+      "Amended 16/11/2022 \n",
+      "3 \n",
+      "The Repairs handbook states: \n",
+      "If you have total loss of your heating and/or hot water we will come out within 24 hours. If we can\u2019t fix your boiler during this \n",
+      "appointment we will offer you temporary heating. \n",
+      "One Job Approach \n",
+      "In line with Aster\u2019s one job approach, if we attend to a job and carry out an initial repair, then it is possible that this same job can \n",
+      "be amended to a new priority appropriate for the follow on works. For example, if an emergency is raised for a burst pipe and Aster \n",
+      "attend to stop the leak and need to return for follow on work then it can be amended to another priority (e.g. urgent or routine \n"
+    ],
+    "content2": [
+      "depending on circumstances). \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 4,
+    "content1": [
+      "Version 2 \n",
+      "4 \n",
+      "Priority Guidance: \n"
+    ],
+    "table": {
+      "columns": [
+        "Response level",
+        "KPI Classification",
+        "Time scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time scale": "4 Hours",
+          "Description": "Critical repair is Make Safe: any defect or situation that has the potential to endanger life or limb, cause major damage to the dwelling or affect a large number of customers."
+        },
+        {
+          "Response level": "Emergency",
+          "KPI Classification": "E",
+          "Time scale": "24 Hours",
+          "Description": "Emergency repair is: any defect that puts the health, safety or security of the customer or third party at immediate risk or adversely affects the structure of the property and may well consist initially of Make Safe only. Normally a single dwelling."
+        },
+        {
+          "Response level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time scale": "36 Hours",
+          "Description": "NWD repair is: only for a beeping smoke alarm. If this is continually sounding, this is an Emergency."
+        },
+        {
+          "Response level": "Urgent",
+          "KPI Classification": "U",
+          "Description": "Non emergency but likely to cause further issues if left to a R such as, containable leak (plumbing/roof leak), mains door entry system, WC not flushing (if second WC is available)"
+        },
+        {
+          "Response level": "Routine",
+          "KPI Classification": "R",
+          "Time scale": "20 Working Days",
+          "Description": "Routine repair is: any defect that can be deferred without serious discomfort, inconvenience or nuisance to the Customer or a third party."
+        },
+        {
+          "Response level": "Batch",
+          "KPI Classification": "60",
+          "Time scale": "60 Working Days",
+          "Description": "Planned one-off repair or any defect typically larger in nature & has resulted from recent deterioration with a medium or high priority. These work requests must come from a team leader or surveyor. Works that need to be completed low priority would form a programme request."
+        }
+      ]
+    },
+    "content2": []
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 5,
+    "content1": [
+      "Version 2 \n",
+      "5 \n",
+      "Vulnerable Customers:  \n",
+      "If it is discovered that a customer has incorrectly claimed vulnerability to obtain additional repairs, Aster will charge them with the cost of any repairs \n",
+      "undertaken as a result of the incorrect claim.  \n",
+      "Rechargeable to customer:  \n",
+      "Repair costs for any damage caused by the customer or their family or visitors will be recharged to them. This excludes repairs resulting from normal wear \n",
+      "and tear.  \n",
+      "Reportable by Leaseholders & Shared Owners:  \n",
+      "Repairs that Aster are responsible for variances according to the leases. This list covers the majority of leases. Leaseholders should not request repairs that \n",
+      "are listed here as a customer responsibility.  \n",
+      "Reportable by Private Rent:  \n",
+      "Private Rent customers pay higher than average rent meaning that Aster will be responsible for nearly everything within these properties.  \n",
+      "Reportable by Intermediate Rent:  \n",
+      "Intermediate Rent properties are old shared ownership properties which have been sold. The majority of repairs are the same as general needs properties.  \n",
+      "Target Priority:  \n",
+      "The priority levels can be raised if required based on professional judgement or where large number of customers may be affected, such as sheltered housing \n"
+    ],
+    "content2": [
+      "communal areas. \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 6,
+    "content1": [
+      "Version 2 \n",
+      "6 \n"
+    ],
+    "table": {
+      "columns": [
+        "Response level",
+        "KPI Classification",
+        "Time scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time scale": "4 Hours",
+          "Description": "Critical repair is Make Safe: any defect or situation that has the potential to endanger life or limb, cause major damage to the dwelling or affect a large number of customers."
+        },
+        {
+          "Response level": "Emergency",
+          "KPI Classification": "E",
+          "Time scale": "24 Hours",
+          "Description": "Emergency repair is: any defect that puts the health, safety or security of the customer or third party at immediate risk or adversely affects the structure of the property and may well consist initially of Make Safe only. Normally a single dwelling."
+        },
+        {
+          "Response level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time scale": "36 Hours",
+          "Description": "NWD repair is: only for a beeping smoke alarm. If this is continually sounding, this is an Emergency."
+        },
+        {
+          "Response level": "Urgent",
+          "KPI Classification": "U",
+          "Description": "Non emergency but likely to cause further issues if left to a R such as, containable leak (plumbing/roof leak), mains door entry system, WC not flushing (if second WC is available)"
+        },
+        {
+          "Response level": "Routine",
+          "KPI Classification": "R",
+          "Time scale": "20 Working Days",
+          "Description": "Routine repair is: any defect that can be deferred without serious discomfort, inconvenience or nuisance to the Customer or a third party."
+        },
+        {
+          "Response level": "Batch",
+          "KPI Classification": "60",
+          "Time scale": "60 Working Days",
+          "Description": "Planned one-off repair or any defect typically larger in nature & has resulted from recent deterioration with a medium or high priority. These work requests must come from a team leader or surveyor. Works that need to be completed low priority would form a programme request."
+        }
+      ]
+    },
+    "content2": [
+      "Emergency \n",
+      "Critical \n",
+      "Yes \n",
+      "Yes \n",
+      "Maintenance \u2013 will \n",
+      "No response from \n",
+      "working order but \n",
+      "Yes - if lock is in \n",
+      "Maintenance Team \n",
+      "Person locked in \n",
+      "Doors \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 7,
+    "content1": [
+      "Version 2 \n",
+      "6 \n"
+    ],
+    "table": {
+      "columns": [
+        "Response level",
+        "KPI Classification",
+        "Time scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time scale": "4 Hours",
+          "Description": "Critical repair is Make Safe: any defect or situation that has the potential to endanger life or limb, cause major damage to the dwelling or affect a large number of customers."
+        },
+        {
+          "Response level": "Emergency",
+          "KPI Classification": "E",
+          "Time scale": "24 Hours",
+          "Description": "Emergency repair is: any defect that puts the health, safety or security of the customer or third party at immediate risk or adversely affects the structure of the property and may well consist initially of Make Safe only. Normally a single dwelling."
+        },
+        {
+          "Response level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time scale": "36 Hours",
+          "Description": "NWD repair is: only for a beeping smoke alarm. If this is continually sounding, this is an Emergency."
+        },
+        {
+          "Response level": "Urgent",
+          "KPI Classification": "U",
+          "Description": "Non emergency but likely to cause further issues if left to a R such as, containable leak (plumbing/roof leak), mains door entry system, WC not flushing (if second WC is available)"
+        },
+        {
+          "Response level": "Routine",
+          "KPI Classification": "R",
+          "Time scale": "20 Working Days",
+          "Description": "Routine repair is: any defect that can be deferred without serious discomfort, inconvenience or nuisance to the Customer or a third party."
+        },
+        {
+          "Response level": "Batch",
+          "KPI Classification": "60",
+          "Time scale": "60 Working Days",
+          "Description": "Planned one-off repair or any defect typically larger in nature & has resulted from recent deterioration with a medium or high priority. These work requests must come from a team leader or surveyor. Works that need to be completed low priority would form a programme request."
+        }
+      ]
+    },
+    "content2": [
+      "Emergency \n",
+      "Critical \n",
+      "Yes \n",
+      "Yes \n",
+      "Maintenance \u2013 will \n",
+      "No response from \n",
+      "working order but \n",
+      "Yes - if lock is in \n",
+      "Maintenance Team \n",
+      "Person locked in \n",
+      "Doors \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  }
+]

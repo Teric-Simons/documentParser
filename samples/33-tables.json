@@ -1,0 +1,51 @@
+[
+  {
+    "page": 1,
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "4 Hours",
+          "Description": "Immediate threat to life, significant damage, or affecting many customers."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "20 Hours",
+          "Description": "Health, safety, or structural risk, often initially make-safe."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "36 Hours",
+          "Description": "For a beeping smoke alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but could cause further issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "18 Working Days",
+          "Description": "Deferrable without serious discomfort or nuisance."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "60 Working Days",
+          "Description": "Planned one-off repair or recent deterioration."
+        }
+      ]
+    }
+  }
+]

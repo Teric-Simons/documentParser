@@ -1,0 +1,142 @@
+[
+  {
+    "pagenum": 1,
+    "content1": [
+      "Working Hours Repair Obligations & Classification Technical \n",
+      "Guide\n",
+      "Repairs Obligations & Classification Guide\n",
+      "The matrix below outlines the repair obligations of the Maintenance Team under Aster Group\u2019s tenancy \n",
+      "agreements. It specifies the repairs provided for customers, leaseholders, and owners under the shared \n",
+      "ownership scheme. A summary is also included in the customer and leaseholder handbooks.\n",
+      "The matrix includes response times based on repair priority. Priorities are enhanced for vulnerable and \n",
+      "disabled customers. These priorities, developed by a customer focus group, are reviewed regularly.\n",
+      "Aster promotes a safety-first culture, and this guide reflects that. For unlisted repairs, refer to your line \n",
+      "manager for guidance. Aster can adjust repair priorities using professional judgment as needed.\n",
+      "Priority Guidance:\n"
+    ],
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "4 Hours",
+          "Description": "Immediate threat to life, significant damage, or affecting many customers."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "20 Hours",
+          "Description": "Health, safety, or structural risk, often initially make-safe."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "36 Hours",
+          "Description": "For a beeping smoke alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but could cause further issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "18 Working Days",
+          "Description": "Deferrable without serious discomfort or nuisance."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "60 Working Days",
+          "Description": "Planned one-off repair or recent deterioration."
+        }
+      ]
+    },
+    "content2": [
+      "will charge them with the cost of any repairs undertaken as a result of the incorrect claim. \n",
+      "If it is discovered that a customer has incorrectly claimed vulnerability to obtain additional repairs, Aster \n",
+      "Vulnerable Customers: \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  },
+  {
+    "pagenum": 2,
+    "content1": [
+      "Working Hours Repair Obligations & Classification Technical \n",
+      "Guide\n",
+      "Repairs Obligations & Classification Guide\n",
+      "The matrix below outlines the repair obligations of the Maintenance Team under Aster Group\u2019s tenancy \n",
+      "agreements. It specifies the repairs provided for customers, leaseholders, and owners under the shared \n",
+      "ownership scheme. A summary is also included in the customer and leaseholder handbooks.\n",
+      "The matrix includes response times based on repair priority. Priorities are enhanced for vulnerable and \n",
+      "disabled customers. These priorities, developed by a customer focus group, are reviewed regularly.\n",
+      "Aster promotes a safety-first culture, and this guide reflects that. For unlisted repairs, refer to your line \n",
+      "manager for guidance. Aster can adjust repair priorities using professional judgment as needed.\n",
+      "Priority Guidance:\n"
+    ],
+    "table": {
+      "columns": [
+        "Response Level",
+        "KPI Classification",
+        "Time Scale",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Response Level": "Critical Emergency",
+          "KPI Classification": "E4",
+          "Time Scale": "4 Hours",
+          "Description": "Immediate threat to life, significant damage, or affecting many customers."
+        },
+        {
+          "Response Level": "Emergency",
+          "KPI Classification": "E",
+          "Time Scale": "20 Hours",
+          "Description": "Health, safety, or structural risk, often initially make-safe."
+        },
+        {
+          "Response Level": "Next Working Day",
+          "KPI Classification": "NWD",
+          "Time Scale": "36 Hours",
+          "Description": "For a beeping smoke alarm."
+        },
+        {
+          "Response Level": "Urgent",
+          "KPI Classification": "U",
+          "Time Scale": "---",
+          "Description": "Non-emergency but could cause further issues."
+        },
+        {
+          "Response Level": "Routine",
+          "KPI Classification": "R",
+          "Time Scale": "18 Working Days",
+          "Description": "Deferrable without serious discomfort or nuisance."
+        },
+        {
+          "Response Level": "Batch",
+          "KPI Classification": "60",
+          "Time Scale": "60 Working Days",
+          "Description": "Planned one-off repair or recent deterioration."
+        }
+      ]
+    },
+    "content2": [
+      "will charge them with the cost of any repairs undertaken as a result of the incorrect claim. \n",
+      "If it is discovered that a customer has incorrectly claimed vulnerability to obtain additional repairs, Aster \n",
+      "Vulnerable Customers: \n"
+    ]
+  },
+  {
+    "pagebreak": "pagebreak"
+  }
+]
